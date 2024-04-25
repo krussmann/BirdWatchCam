@@ -1,48 +1,31 @@
-BirdFeederMessenger
+BirdWatchCam
 ==========
-A small Raspberry Pi application which sends short videos of detected birds at your bird feeder to your mobile phone.
+A small Raspberry Pi application which sends short videos of detected birds to your mobile phone.
 
 It involves the following:
 - **Raspberry Pi** with a camera module.
 - Object detection using the **tiny yolo v4** model.
 - **Telegram API** for sending videos.
 
-All credits to the following authors from which most of the information was gathered:
-- Asadullah Dal (https://github.com/Asadullah-Dal17/yolov4-opencv-python)
-- Florian Dedov (https://github.com/NeuralNine)
-- Ahmed Fadlelmawla (https://medium.com/@eddawy)
-- Vikas Jha (https://www.youtube.com/watch?v=NYT1KFE1X2o&t=245s)
-- Maddie Moate (https://www.youtube.com/watch?v=IiOH5LUVkWo)
-
 <br/><br/>
 
-<p align="center">
-  <img src="doc/SNA_banner.png" width="100%"/>
-  <br>
-</p>
+
+https://github.com/krussmann/BirdWatchCam/assets/91115542/ac856ada-f0c4-49a9-aaf9-1b27f94d3fea
 
 
-[**Installation**](#installation)
+[**Virtual Environment**](#seting-up-a-virtual-environment)
 &nbsp; &nbsp; &vert; &nbsp; &nbsp;
-[Telegram Bot](#Telegram Bot)
+[Installation](#installation)
 &nbsp; &nbsp; &vert; &nbsp; &nbsp;
-[Clone this repo to your Raspberry Pi](#Clone this repo to your Raspberry Pi)
-&nbsp; &nbsp; &vert; &nbsp; &nbsp;
-[Apply solution to Mastodon](#Apply solution to Mastodon)
+[Telegram Bot](#seting-up-a-telegram-bot)
 
 
 ---
 
 ## Connect to your Raspberry Pi via SSH or VNC and then...
+0. Install `python` >= 3.7.9 (I used 3.7.9), Install `pip` >= 20.1.1
 
-##  Installation
-
-0. Install `python` >= 3.7.9 (I used 3.7.9), Install `pip` >= 20.1.1 
-1. Clone the repository
-`git clone https://github.com/krussmann/BirdFeederMessenger.git`
-2. Change directory into repository `cd BirdFeederMessenger`
-
-### Using Python Virtual Environment
+## Setting up a Virtual Environment
 1. Install Virtualenv
 `sudo -H python3 -m pip install virtualenv`
 
@@ -52,7 +35,13 @@ All credits to the following authors from which most of the information was gath
 3. Activate Virtual Environment
 `source env/bin/activate`
 
-4. Install required Packages to Virtual Environment
+##  Installation
+1. Clone the repository
+`git clone https://github.com/krussmann/BirdWatchCam.git`
+
+2. Change directory into repository `cd BirdWatchCam`
+
+3. Install required Packages to Virtual Environment
 `pip install -r requirements.txt`
 
 ## Setting up a Telegram Bot
