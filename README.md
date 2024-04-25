@@ -13,11 +13,11 @@ It involves the following:
 https://github.com/krussmann/BirdWatchCam/assets/91115542/ac856ada-f0c4-49a9-aaf9-1b27f94d3fea
 
 
-[**Virtual Environment**](#seting-up-a-virtual-environment)
+[**Virtual Environment**](#setting-up-a-virtual-environment)
 &nbsp; &nbsp; &vert; &nbsp; &nbsp;
 [Installation](#installation)
 &nbsp; &nbsp; &vert; &nbsp; &nbsp;
-[Telegram Bot](#seting-up-a-telegram-bot)
+[Telegram Bot](#setting-up-a-telegram-bot)
 
 
 ---
